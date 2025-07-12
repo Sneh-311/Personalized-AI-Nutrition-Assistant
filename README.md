@@ -34,21 +34,15 @@ An AI-powered nutrition and health recommendation system that analyzes user inpu
 
 ---
 
-## ▶️ Getting Started
+## 🛠️ Setup Instructions
 
-### 1️⃣ Install Dependencies
+Make sure you have **Python 3.10+** installed.
+
+### Install Dependencies
+
+Install all required libraries using:
 
 ```bash
 pip install -r requirements.txt
-
----
-
-**## 2️⃣ Set Your OpenAI API Key**
-
-export OPENAI_API_KEY=your_key_here
-
----
-
-**##3️⃣ Run the Application**
 
 python app.py
