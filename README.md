@@ -10,7 +10,7 @@ An AI-powered nutrition and health recommendation system that analyzes user inpu
 - 🖼️ **Image-based Product Scanning** for nutrition analysis  
 - 📄 **CSV-Based Health Data Retrieval** with LangChain + RetrievalQA  
 - 🧾 **Text Input Interface** for goal-specific dietary plans  
-- ⚙️ **Flask Web App** with modular structure and clear UI  
+- ⚙️ **Streamlit Web App** with modular structure and clear UI  
 
 ---
 
@@ -27,7 +27,7 @@ An AI-powered nutrition and health recommendation system that analyzes user inpu
 ## 🛠️ Tech Stack
 
 - **Backend**: Flask, LangChain, OpenAI API  
-- **Frontend**: HTML, Jinja2 Templates, CSS  
+- **Frontend**: Streamlit 
 - **NLP & AI**: OpenAI (GPT models), LangChain RetrievalQA  
 - **Data Processing**: Pandas  
 - **Vision**: Pillow (PIL)  
