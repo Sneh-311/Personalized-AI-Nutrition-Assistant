@@ -10,7 +10,7 @@ st.set_page_config(page_title="AI Nutrition Assistant", layout="wide")
 st.title("🍲The Smart AI Nutrition Assistant")
 
 # Create tabs
-tab1, tab2 , tab3 = st.tabs(["📝 Nutrition Planner", "📈 Food Analysis", "🩺 Personalized Health Assistant with RAG"])
+tab1, tab2 = st.tabs(["📝 Nutrition Planner", "📈 Food Analysis"])
 
 # Process inputs in respective tabs
 with tab1:
@@ -21,7 +21,4 @@ with tab2:
     st.subheader("Food Image Analysis")
     handle_image_input(model)
 
-with tab3:
-    st.subheader("Personalized Health Assistant with RAG")
-    handle_health_assistant_input(model)
     
